@@ -24,6 +24,6 @@ This project is a simple WhatsApp bot that sends periodic messages using Twilio 
    - [Free Code Camp: Send a Romantic Message Every Hour to Your Valentine](https://www.freecodecamp.org/news/send-a-romantic-message-every-hour-to-your-valentine/)
    - [Twilio API](https://www.twilio.com/en-us)
    - [Node-Cron Documentation](https://www.npmjs.com/package/cron)
-   - [Dad Jokes API]([https://philosophy-quotes-api.glitch.me/quotes](https://icanhazdadjoke.com/))
+   - [Dad Jokes API](https://icanhazdadjoke.com/)
  
    
