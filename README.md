@@ -1,11 +1,11 @@
 # WhatsApp Bot with Twilio and Node.js
 
-This project is a simple WhatsApp bot that sends periodic messages using Twilio and Node.js. The bot is configured to send philosophical quotes retrieved from an API.
+This project is a simple WhatsApp bot that sends periodic messages using Twilio and Node.js. The bot is configured to send dad jokes retrieved from an API.
 
 ## Features
 
 - Sends periodic WhatsApp messages
-- Retrieves philosophical quotes from an external API
+- Retrieves dad jokes from an external API
 - Logs message sending status and the quote sent
 - Configuration for sensitive data through a separate config file
 
@@ -24,6 +24,6 @@ This project is a simple WhatsApp bot that sends periodic messages using Twilio 
    - [Free Code Camp: Send a Romantic Message Every Hour to Your Valentine](https://www.freecodecamp.org/news/send-a-romantic-message-every-hour-to-your-valentine/)
    - [Twilio API](https://www.twilio.com/en-us)
    - [Node-Cron Documentation](https://www.npmjs.com/package/cron)
-   - [Philosophy Quotes API](https://philosophy-quotes-api.glitch.me/quotes)
+   - [Dad Jokes API]([https://philosophy-quotes-api.glitch.me/quotes](https://icanhazdadjoke.com/))
  
    
