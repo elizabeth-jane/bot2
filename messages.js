@@ -1,15 +1,15 @@
 const axios = require('axios');
 
-const generateQuote = async () => {
+const generateJoke = async () => {
     try {
-        const response = await axios.get('https://philosophy-quotes-api.glitch.me/quotes');
-        const quotes = response.data;
-        const randomQuote = quotes[Math.floor(Math.random() * quotes.length)].quote;
-        return randomQuote;
+        const response = await axios.get('https://icanhazdadjoke.com/');
+        const jokes = response.data;
+        const randomJoke = jokes[Math.floor(Math.random() * jokes.length)].joke;
+        return randomJoke;
     } catch (error) {
-        console.error('Error fetching quote:', error);
+        console.error('Error fetching joke:', error);
         return 'Something went wrong';
     }
 };
 
-module.exports = generateQuote;
+module.exports = generateJoke;

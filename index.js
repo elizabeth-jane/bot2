@@ -4,25 +4,25 @@ const accountSid = config.accountSid;
 const authToken = config.authToken;
 const client = require('twilio')(accountSid, authToken);
 
-const generateQuote = require('./messages.js');
+const generateJoke = require('./messages.js');
 
 async function sendMessage() {
     try {
-        const quote = await generateQuote();
+        const joke = await generateJoke();
         client.messages
             .create({
-                body: quote,
+                body: joke,
                 from: config.twilioNumber, 
                 to: config.phoneNumber
             })
             .then(message => {
-                console.log(quote);
+                console.log(joke);
             })
             .catch(err => {
                 console.error('Error sending message:', err);
             });
     } catch (error) {
-        console.error('Error fetching quote:', error);
+        console.error('Error fetching joke:', error);
     }
 }
 
