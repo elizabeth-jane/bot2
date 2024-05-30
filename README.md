@@ -6,7 +6,7 @@ This project is a simple WhatsApp bot that sends periodic messages using Twilio 
 
 - Sends periodic WhatsApp messages
 - Retrieves dad jokes from an external API
-- Logs message sending status and the quote sent
+- Logs message sending status and the joke sent
 - Configuration for sensitive data through a separate config file
 
 ## Setup
